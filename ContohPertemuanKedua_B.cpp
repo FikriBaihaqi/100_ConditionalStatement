@@ -7,7 +7,7 @@ int main() {
     srand(time(0));
 
     nBilangan = rand() % 10;
-    cout << "Nilai Awal = " << nBilangan << endl;
+    cout << "Bilangannya = " << nBilangan << endl;
 
     if (nBilangan % 2 == 0){
         status = "genap";
@@ -15,7 +15,7 @@ int main() {
     else {
         status = "ganjil";
     }
-    cout << "Nilai berstatus = " << status << endl;
+    cout << "Nilai berstatus : " << status << endl;
     
-    
+    return 0;
 }

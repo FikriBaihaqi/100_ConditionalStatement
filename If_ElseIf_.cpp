@@ -22,7 +22,7 @@ int main() {
         status = "kurang dari";
     }
 
-    cout << status << endl;
+    cout << "Tampilkan Status : "<< status << endl;
 
 return 0;  
 }
