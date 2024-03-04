@@ -19,4 +19,5 @@ int main() {
     cout << "Status Siswa : " << status << endl;
     
     return 0;
+    
 }
